@@ -1,0 +1,99 @@
+-- Copyright (C) 1988-2002 Altera Corporation
+-- Any megafunction design, and related net list (encrypted or decrypted),
+-- support information, device programming or simulation file, and any other
+-- associated documentation or information provided by Altera or a partner
+-- under Altera's Megafunction Partnership Program may be used only to
+-- program PLD devices (but not masked PLD devices) from Altera.  Any other
+-- use of such megafunction design, net list, support information, device
+-- programming or simulation file, or any other related documentation or
+-- information is prohibited for any other purpose, including, but not
+-- limited to modification, reverse engineering, de-compiling, or use with
+-- any other silicon devices, unless such use is explicitly licensed under
+-- a separate agreement with Altera or a megafunction partner.  Title to
+-- the intellectual property, including patents, copyrights, trademarks,
+-- trade secrets, or maskworks, embodied in any such megafunction design,
+-- net list, support information, device programming or simulation file, or
+-- any other related documentation or information provided by Altera or a
+-- megafunction partner, remains with Altera, the megafunction partner, or
+-- their respective licensors.  No other licenses, including any licenses
+-- needed under any third party's intellectual property, are provided herein.
+
+
+
+N.C. = No Connect. This pin has no internal connection to the device.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+----------------------------------------------------------------------------
+
+CHIP "alu1" ASSIGNED TO AN EPM7096LC68-7
+GND                              : 1
+GND                              : 2
+VCCINT                           : 3
+~PIN016                          : 4
+~2673~1                          : 5
+GND                              : 6
+~2697~1                          : 7
+Y1                               : 8
+Y0                               : 9
+S0                               : 10
+VCCIO                            : 11
+S2                               : 12
+S1                               : 13
+~PIN012                          : 14
+~PIN017                          : 15
+GND                              : 16
+~PIN013                          : 17
+~2769~1                          : 18
+~2745~1                          : 19
+~2721~1                          : 20
+VCCIO                            : 21
+~PIN014                          : 22
+~PIN015                          : 23
+RESERVED                         : 24
+Y2                               : 25
+GND                              : 26
+RESERVED                         : 27
+X2                               : 28
+ALOUT1                           : 29
+X1                               : 30
+VCCIO                            : 31
+RESERVED                         : 32
+X0                               : 33
+GND                              : 34
+VCCINT                           : 35
+~2385~1                          : 36
+~2361~1                          : 37
+GND                              : 38
+~2409~1                          : 39
+RESERVED                         : 40
+RESERVED                         : 41
+RESERVED                         : 42
+VCCIO                            : 43
+RESERVED                         : 44
+ZF                               : 45
+~2625~1                          : 46
+~2601~1                          : 47
+GND                              : 48
+ALOUT0                           : 49
+~2577~1                          : 50
+RESERVED                         : 51
+RESERVED                         : 52
+VCCIO                            : 53
+RESERVED                         : 54
+ALOUT2                           : 55
+RESERVED                         : 56
+RESERVED                         : 57
+GND                              : 58
+RESERVED                         : 59
+CF                               : 60
+RESERVED                         : 61
+~2214~1                          : 62
+VCCIO                            : 63
+RESERVED                         : 64
+RESERVED                         : 65
+GND                              : 66
+GND                              : 67
+GND                              : 68
