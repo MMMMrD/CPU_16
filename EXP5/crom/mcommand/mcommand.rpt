@@ -1,0 +1,531 @@
+Project Information        d:\maxplus\projects\exp5\crom\mcommand\mcommand.rpt
+
+MAX+plus II Compiler Report File
+Version 10.2 07/10/2002
+Compiled: 06/29/2023 19:51:01
+
+Copyright (C) 1988-2002 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+MCOMMAND
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input   Output   Bidir         Shareable
+POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
+
+mcommand  EPM7064LC68-7    22       20       0      20      0           31 %
+
+User Pins:                 22       20       0  
+
+
+
+Project Information        d:\maxplus\projects\exp5\crom\mcommand\mcommand.rpt
+
+** PROJECT COMPILATION MESSAGES **
+
+Warning: Ignored unnecessary INPUT pin 'T2'
+
+
+Device-Specific Information:d:\maxplus\projects\exp5\crom\mcommand\mcommand.rpt
+mcommand
+
+***** Logic for device 'mcommand' compiled without errors.
+
+
+
+
+Device: EPM7064LC68-7
+
+Device Options:
+    Turbo Bit                                    = ON
+    Security Bit                                 = OFF
+    MultiVolt I/O                              = OFF
+
+
+
+Device-Specific Information:d:\maxplus\projects\exp5\crom\mcommand\mcommand.rpt
+mcommand
+
+** ERROR SUMMARY **
+
+Info: Chip 'mcommand' in device 'EPM7064LC68-7' has less than 20% of pins available for future logic changes -- if your project is likely to change, Altera recommends using a larger device
+                                                                 
+                                                                 
+                                V                                
+                                C                       V  R     
+                                C                 L  R  C  A     
+                       G  O  O  I  G  G  G  G  G  D  D  C  M     
+              O  O  O  N  1  1  N  N  N  N  N  N  I  _  I  _  P  
+              0  1  2  D  0  1  T  D  D  D  D  D  R  D  O  B  2  
+            -----------------------------------------------------_ 
+          /   9  8  7  6  5  4  3  2  1 68 67 66 65 64 63 62 61   | 
+      O4 | 10                                                  60 | P1 
+   VCCIO | 11                                                  59 | ALU_B 
+      O5 | 12                                                  58 | GND 
+      O6 | 13                                                  57 | CS_D 
+      O7 | 14                                                  56 | CS_I 
+      O8 | 15                                                  55 | LDAR 
+     GND | 16                                                  54 | ADDR_B 
+      O9 | 17                                                  53 | VCCIO 
+      T4 | 18                  EPM7064LC68-7                   52 | LED_B 
+RESERVED | 19                                                  51 | LOAD 
+     O14 | 20                                                  50 | RESERVED 
+   VCCIO | 21                                                  49 | RESERVED 
+     O15 | 22                                                  48 | GND 
+RESERVED | 23                                                  47 | S2 
+RESERVED | 24                                                  46 | LDPC 
+      O3 | 25                                                  45 | O12 
+     GND | 26                                                  44 | S1 
+         |_  27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43  _| 
+           ------------------------------------------------------ 
+              O  O  O  O  V  T  R  G  V  L  O  G  L  S  R  S  V  
+              1  1  1  1  C  3  E  N  C  D  1  N  D  W  S  0  C  
+              6  7  8  9  C     S  D  C  R  3  D  P  _  _     C  
+                          I     E     I  I        S  B  B     I  
+                          O     R     N           W           O  
+                                V     T                          
+                                E                                
+                                D                                
+
+
+N.C. = No Connect. This pin has no internal connection to the device.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+
+
+Device-Specific Information:d:\maxplus\projects\exp5\crom\mcommand\mcommand.rpt
+mcommand
+
+** RESOURCE USAGE **
+
+                                                Shareable     External
+Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
+
+A:     LC1 - LC16     0/16(  0%)  12/12(100%)   0/16(  0%)   0/36(  0%) 
+B:    LC17 - LC32     0/16(  0%)   8/12( 66%)   0/16(  0%)   0/36(  0%) 
+C:    LC33 - LC48     8/16( 50%)  10/12( 83%)   0/16(  0%)   9/36( 25%) 
+D:    LC49 - LC64    12/16( 75%)  12/12(100%)   0/16(  0%)  13/36( 36%) 
+
+
+Total dedicated input pins used:                 0/4      (  0%)
+Total I/O pins used:                            42/48     ( 87%)
+Total logic cells used:                         20/64     ( 31%)
+Total shareable expanders used:                  0/64     (  0%)
+Total Turbo logic cells used:                   20/64     ( 31%)
+Total shareable expanders not available (n/a):   0/64     (  0%)
+Average fan-in:                                  1.25
+Total fan-in:                                    25
+
+Total input pins required:                      22
+Total output pins required:                     20
+Total bidirectional pins required:               0
+Total logic cells required:                     20
+Total flipflops required:                        0
+Total product terms required:                   20
+Total logic cells lending parallel expanders:    0
+Total shareable expanders in database:           0
+
+Synthesized logic cells:                         0/  64   (  0%)
+
+
+
+Device-Specific Information:d:\maxplus\projects\exp5\crom\mcommand\mcommand.rpt
+mcommand
+
+** INPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+   9   (11)  (A)      INPUT               0      0   0    0    0    1    0  O0
+   8   (12)  (A)      INPUT               0      0   0    0    0    1    0  O1
+   7   (13)  (A)      INPUT               0      0   0    0    0    1    0  O2
+  25   (25)  (B)      INPUT               0      0   0    0    0    1    0  O3
+  10    (9)  (A)      INPUT               0      0   0    0    0    1    0  O4
+  12    (8)  (A)      INPUT               0      0   0    0    0    1    0  O5
+  13    (6)  (A)      INPUT               0      0   0    0    0    1    0  O6
+  14    (5)  (A)      INPUT               0      0   0    0    0    1    0  O7
+  15    (4)  (A)      INPUT               0      0   0    0    0    1    0  O8
+  17    (3)  (A)      INPUT               0      0   0    0    0    1    0  O9
+   5   (14)  (A)      INPUT               0      0   0    0    0    1    0  O10
+   4   (16)  (A)      INPUT               0      0   0    0    0    1    0  O11
+  45   (43)  (C)      INPUT               0      0   0    0    0    1    0  O12
+  37   (35)  (C)      INPUT               0      0   0    0    0    1    0  O13
+  20   (30)  (B)      INPUT               0      0   0    0    0    1    0  O14
+  22   (29)  (B)      INPUT               0      0   0    0    0    1    0  O15
+  27   (24)  (B)      INPUT               0      0   0    0    0    1    0  O16
+  28   (22)  (B)      INPUT               0      0   0    0    0    1    0  O17
+  29   (21)  (B)      INPUT               0      0   0    0    0    1    0  O18
+  30   (20)  (B)      INPUT               0      0   0    0    0    1    0  O19
+  32   (19)  (B)      INPUT               0      0   0    0    0    2    0  T3
+  18    (1)  (A)      INPUT               0      0   0    0    0    3    0  T4
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:d:\maxplus\projects\exp5\crom\mcommand\mcommand.rpt
+mcommand
+
+** OUTPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+  54     52    D     OUTPUT      t        0      0   0    1    0    0    0  ADDR_B
+  59     57    D     OUTPUT      t        0      0   0    1    0    0    0  ALU_B
+  57     56    D     OUTPUT      t        0      0   0    1    0    0    0  CS_D
+  56     54    D     OUTPUT      t        0      0   0    1    0    0    0  CS_I
+  55     53    D     OUTPUT      t        0      0   0    2    0    0    0  LDAR
+  65     64    D     OUTPUT      t        0      0   0    2    0    0    0  LDIR
+  46     44    C     OUTPUT      t        0      0   0    2    0    0    0  LDPC
+  39     36    C     OUTPUT      t        0      0   0    2    0    0    0  LDPSW
+  36     33    C     OUTPUT      t        0      0   0    2    0    0    0  LDRI
+  52     51    D     OUTPUT      t        0      0   0    1    0    0    0  LED_B
+  51     49    D     OUTPUT      t        0      0   0    1    0    0    0  LOAD
+  60     59    D     OUTPUT      t        0      0   0    1    0    0    0  P1
+  61     60    D     OUTPUT      t        0      0   0    1    0    0    0  P2
+  62     61    D     OUTPUT      t        0      0   0    1    0    0    0  RAM_B
+  64     62    D     OUTPUT      t        0      0   0    1    0    0    0  RD_D
+  41     38    C     OUTPUT      t        0      0   0    1    0    0    0  RS_B
+  40     37    C     OUTPUT      t        0      0   0    1    0    0    0  SW_B
+  42     40    C     OUTPUT      t        0      0   0    1    0    0    0  S0
+  44     41    C     OUTPUT      t        0      0   0    1    0    0    0  S1
+  47     45    C     OUTPUT      t        0      0   0    1    0    0    0  S2
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:d:\maxplus\projects\exp5\crom\mcommand\mcommand.rpt
+mcommand
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'C':
+
+                         Logic cells placed in LAB 'C'
+        +--------------- LC44 LDPC
+        | +------------- LC36 LDPSW
+        | | +----------- LC33 LDRI
+        | | | +--------- LC38 RS_B
+        | | | | +------- LC37 SW_B
+        | | | | | +----- LC40 S0
+        | | | | | | +--- LC41 S1
+        | | | | | | | +- LC45 S2
+        | | | | | | | | 
+        | | | | | | | |   Other LABs fed by signals
+        | | | | | | | |   that feed LAB 'C'
+LC      | | | | | | | | | A B C D |     Logic cells that feed LAB 'C':
+
+Pin
+15   -> - - - - * - - - | - - * - | <-- O8
+5    -> - - - - - * - - | - - * - | <-- O10
+4    -> - - - - - - * - | - - * - | <-- O11
+45   -> - - - - - - - * | - - * - | <-- O12
+37   -> - - - * - - - - | - - * - | <-- O13
+20   -> - * - - - - - - | - - * - | <-- O14
+22   -> - - * - - - - - | - - * - | <-- O15
+29   -> * - - - - - - - | - - * - | <-- O18
+18   -> * * * - - - - - | - - * - | <-- T4
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:d:\maxplus\projects\exp5\crom\mcommand\mcommand.rpt
+mcommand
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'D':
+
+                                 Logic cells placed in LAB 'D'
+        +----------------------- LC52 ADDR_B
+        | +--------------------- LC57 ALU_B
+        | | +------------------- LC56 CS_D
+        | | | +----------------- LC54 CS_I
+        | | | | +--------------- LC53 LDAR
+        | | | | | +------------- LC64 LDIR
+        | | | | | | +----------- LC51 LED_B
+        | | | | | | | +--------- LC49 LOAD
+        | | | | | | | | +------- LC59 P1
+        | | | | | | | | | +----- LC60 P2
+        | | | | | | | | | | +--- LC61 RAM_B
+        | | | | | | | | | | | +- LC62 RD_D
+        | | | | | | | | | | | | 
+        | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | |   that feed LAB 'D'
+LC      | | | | | | | | | | | | | A B C D |     Logic cells that feed LAB 'D':
+
+Pin
+9    -> - - - - - - - - - * - - | - - - * | <-- O0
+8    -> - - - - - - - - * - - - | - - - * | <-- O1
+7    -> * - - - - - - - - - - - | - - - * | <-- O2
+25   -> - - - * - - - - - - - - | - - - * | <-- O3
+10   -> - - - - - - - - - - * - | - - - * | <-- O4
+12   -> - - * - - - - - - - - - | - - - * | <-- O5
+13   -> - - - - - - - - - - - * | - - - * | <-- O6
+14   -> - - - - - - * - - - - - | - - - * | <-- O7
+17   -> - * - - - - - - - - - - | - - - * | <-- O9
+27   -> - - - - - * - - - - - - | - - - * | <-- O16
+28   -> - - - - * - - - - - - - | - - - * | <-- O17
+30   -> - - - - - - - * - - - - | - - - * | <-- O19
+32   -> - - - - * * - - - - - - | - - - * | <-- T3
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:d:\maxplus\projects\exp5\crom\mcommand\mcommand.rpt
+mcommand
+
+** EQUATIONS **
+
+O0       : INPUT;
+O1       : INPUT;
+O2       : INPUT;
+O3       : INPUT;
+O4       : INPUT;
+O5       : INPUT;
+O6       : INPUT;
+O7       : INPUT;
+O8       : INPUT;
+O9       : INPUT;
+O10      : INPUT;
+O11      : INPUT;
+O12      : INPUT;
+O13      : INPUT;
+O14      : INPUT;
+O15      : INPUT;
+O16      : INPUT;
+O17      : INPUT;
+O18      : INPUT;
+O19      : INPUT;
+T3       : INPUT;
+T4       : INPUT;
+
+-- Node name is 'ADDR_B' 
+-- Equation name is 'ADDR_B', location is LC052, type is output.
+ ADDR_B  = LCELL( O2 $  GND);
+
+-- Node name is 'ALU_B' 
+-- Equation name is 'ALU_B', location is LC057, type is output.
+ ALU_B   = LCELL( O9 $  GND);
+
+-- Node name is 'CS_D' 
+-- Equation name is 'CS_D', location is LC056, type is output.
+ CS_D    = LCELL( O5 $  GND);
+
+-- Node name is 'CS_I' 
+-- Equation name is 'CS_I', location is LC054, type is output.
+ CS_I    = LCELL( O3 $  GND);
+
+-- Node name is 'LDAR' 
+-- Equation name is 'LDAR', location is LC053, type is output.
+ LDAR    = LCELL( _EQ001 $  GND);
+  _EQ001 =  O17 &  T3;
+
+-- Node name is 'LDIR' 
+-- Equation name is 'LDIR', location is LC064, type is output.
+ LDIR    = LCELL( _EQ002 $  GND);
+  _EQ002 =  O16 &  T3;
+
+-- Node name is 'LDPC' 
+-- Equation name is 'LDPC', location is LC044, type is output.
+ LDPC    = LCELL( _EQ003 $  GND);
+  _EQ003 =  O18 &  T4;
+
+-- Node name is 'LDPSW' 
+-- Equation name is 'LDPSW', location is LC036, type is output.
+ LDPSW   = LCELL( _EQ004 $  GND);
+  _EQ004 =  O14 &  T4;
+
+-- Node name is 'LDRI' 
+-- Equation name is 'LDRI', location is LC033, type is output.
+ LDRI    = LCELL( _EQ005 $  GND);
+  _EQ005 =  O15 &  T4;
+
+-- Node name is 'LED_B' 
+-- Equation name is 'LED_B', location is LC051, type is output.
+ LED_B   = LCELL( O7 $  GND);
+
+-- Node name is 'LOAD' 
+-- Equation name is 'LOAD', location is LC049, type is output.
+ LOAD    = LCELL( O19 $  GND);
+
+-- Node name is 'P1' 
+-- Equation name is 'P1', location is LC059, type is output.
+ P1      = LCELL( O1 $  GND);
+
+-- Node name is 'P2' 
+-- Equation name is 'P2', location is LC060, type is output.
+ P2      = LCELL( O0 $  GND);
+
+-- Node name is 'RAM_B' 
+-- Equation name is 'RAM_B', location is LC061, type is output.
+ RAM_B   = LCELL( O4 $  GND);
+
+-- Node name is 'RD_D' 
+-- Equation name is 'RD_D', location is LC062, type is output.
+ RD_D    = LCELL( O6 $  GND);
+
+-- Node name is 'RS_B' 
+-- Equation name is 'RS_B', location is LC038, type is output.
+ RS_B    = LCELL( O13 $  GND);
+
+-- Node name is 'SW_B' 
+-- Equation name is 'SW_B', location is LC037, type is output.
+ SW_B    = LCELL( O8 $  GND);
+
+-- Node name is 'S0' 
+-- Equation name is 'S0', location is LC040, type is output.
+ S0      = LCELL( O10 $  GND);
+
+-- Node name is 'S1' 
+-- Equation name is 'S1', location is LC041, type is output.
+ S1      = LCELL( O11 $  GND);
+
+-- Node name is 'S2' 
+-- Equation name is 'S2', location is LC045, type is output.
+ S2      = LCELL( O12 $  GND);
+
+
+
+--     Shareable expanders that are duplicated in multiple LABs:
+--     (none)
+
+
+
+
+Project Information        d:\maxplus\projects\exp5\crom\mcommand\mcommand.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Standard
+
+   Default Synthesis Style                = NORMAL
+
+      Logic option settings in 'NORMAL' style for 'MAX7000' family
+
+      DECOMPOSE_GATES                     = on
+      DUPLICATE_LOGIC_EXTRACTION          = on
+      MINIMIZATION                        = full
+      MULTI_LEVEL_FACTORING               = on
+      NOT_GATE_PUSH_BACK                  = on
+      PARALLEL_EXPANDERS                  = off
+      REDUCE_LOGIC                        = on
+      REFACTORIZATION                     = on
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = on
+      SLOW_SLEW_RATE                      = off
+      SOFT_BUFFER_INSERTION               = on
+      SUBFACTOR_EXTRACTION                = on
+      TURBO_BIT                           = on
+      XOR_SYNTHESIS                       = on
+      IGNORE_SOFT_BUFFERS                 = off
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      One-Hot State Machine Encoding      = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = off
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:00
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:00
+   Partitioner                            00:00:00
+   Fitter                                 00:00:00
+   Timing SNF Extractor                   00:00:00
+   Assembler                              00:00:00
+   --------------------------             --------
+   Total Time                             00:00:00
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 3,862K
