@@ -1,0 +1,44 @@
+NDB006
+The number of symbol table entries is: 1
+The length of the symbol table is: 13
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+
+The number of name info structs is : 32
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	"<R?c	!	9	5	ADDR0	!	ADDR0	",
+#	"<R?c	!	9	5	ADDR1	!	ADDR1	"+
+$	"<R?c	!	9	5	ADDR2	!	ADDR2	"*
+%	"<R?c	!	9	5	ADDR3	!	ADDR3	")
+&	"<R?c	!	9	5	ADDR4	!	ADDR4	"(
+'	"<R?c	!	9	5	ADDR5	!	ADDR5	"'
+(	"<R?c	!	9	5	ADDR6	!	ADDR6	"&
+)	"<R?c	!	9	5	ADDR7	!	ADDR7	"%
+*	IeE[	!	10	5	I10	".
++	IeE[	!	10	5	I11	"-
+,	IeE[	!	10	5	I8	"0
+-	IeE[	!	10	5	I9	"/
+.	"?%_n	!	7	5	1	"	INCODE0	!	INCODE0	~
+/	"?%_n	!	7	5	1	#	INCODE1	!	INCODE1	}
+0	"?%_n	!	7	5	1	*	INCODE10	!	INCODE10	t
+1	"?%_n	!	7	5	1	+	INCODE11	!	INCODE11	s
+2	"?%_n	!	7	5	1	>	INCODE12	!	INCODE12	r
+3	"?%_n	!	7	5	1	?	INCODE13	!	INCODE13	q
+4	"?%_n	!	7	5	1	@	INCODE14	!	INCODE14	p
+5	"?%_n	!	7	5	1	A	INCODE15	!	INCODE15	o
+6	"?%_n	!	7	5	1	$	INCODE2	!	INCODE2	|
+7	"?%_n	!	7	5	1	%	INCODE3	!	INCODE3	{
+8	"?%_n	!	7	5	1	&	INCODE4	!	INCODE4	z
+9	"?%_n	!	7	5	1	'	INCODE5	!	INCODE5	y
+:	"?%_n	!	7	5	1	(	INCODE6	!	INCODE6	x
+;	"?%_n	!	7	5	1	)	INCODE7	!	INCODE7	w
+<	"?%_n	!	7	5	1	,	INCODE8	!	INCODE8	v
+=	"?%_n	!	7	5	1	-	INCODE9	!	INCODE9	u
+>	"<R?c	!	8	5	OP0	!	OP0	"$
+?	"<R?c	!	8	5	OP1	!	OP1	"#
+@	"<R?c	!	8	5	OP2	!	OP2	""
+A	"<R?c	!	8	5	OP3	!	OP3	"!
