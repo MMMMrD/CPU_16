@@ -1,0 +1,103 @@
+NDB006
+The number of symbol table entries is: 1
+The length of the symbol table is: 13
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+
+The number of name info structs is : 91
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IGdW	!	:38	"6
+#	IGdW	!	:39	"7
+$	IGdW	!	:40	"8
+%	IGdW	!	:41	"9
+&	IGdW	!	:42	":
+'	IGdW	!	:43	";
+(	IGdW	!	:44	"<
+)	IGdW	!	:45	"=
+*	IGdW	!	:46	">
++	IGdW	!	:47	"?
+,	IGdW	!	:48	"@
+-	IGdW	!	:49	"A
+.	IGdW	!	:50	"B
+/	IGdW	!	:51	"C
+0	IGdW	!	:52	"D
+1	IGdW	!	:53	"E
+2	IGdW	!	:54	"F
+3	IGdW	!	:55	"G
+4	IGdW	!	:56	"H
+5	IGdW	!	:57	"I
+6	IGdW	!	:58	"J
+7	IGdW	!	:59	"K
+8	IGdW	!	:60	"L
+9	IGdW	!	:61	"M
+:	IGdW	!	:62	"N
+;	IGdW	!	:63	"O
+<	IGdW	!	:64	"P
+=	IGdW	!	:65	"Q
+>	IGdW	!	:66	"R
+?	IGdW	!	:67	"S
+@	IGdW	!	:68	"T
+A	IGdW	!	:69	"U
+B	IGdW	!	:70	"V
+C	IGdW	!	:71	"W
+D	IGdW	!	:72	"X
+E	IGdW	!	:73	"Y
+F	IGdW	!	:74	"Z
+G	IGdW	!	:75	"[
+H	IGdW	!	:76	"\
+I	IGdW	!	:77	"]
+J	IGdW	!	:78	"^
+K	IGdW	!	:79	"_
+L	L8ef	!	8	9	1	n	C	o
+M	L8eg	!	9	9	1	M	CF	s
+N	L8ef	!	8	9	6	M	P	R	n	t	z	LDPSW	r
+O	L8ef	!	8	9	1	t	S	p
+P	L8eg	!	9	9	1	P	SF	t
+Q	L8ef	!	8	9	1	z	Z	q
+R	L8eg	!	9	9	1	R	ZF	u
+S	IFkI	!	~38~1	"6
+T	IFkI	!	~39~1	"7
+U	IFkI	!	~40~1	"8
+V	IFkI	!	~41~1	"9
+W	IFkI	!	~42~1	":
+X	IFkI	!	~43~1	";
+Y	IFkI	!	~44~1	"<
+Z	IFkI	!	~45~1	"=
+[	IFkI	!	~46~1	">
+\	IFkI	!	~47~1	"?
+]	IFkI	!	~48~1	"@
+^	IFkI	!	~49~1	"A
+_	IFkI	!	~50~1	"B
+`	IFkI	!	~51~1	"C
+a	IFkI	!	~52~1	"D
+b	IFkI	!	~53~1	"E
+c	IFkI	!	~54~1	"F
+d	IFkI	!	~55~1	"G
+e	IFkI	!	~56~1	"H
+f	IFkI	!	~57~1	"I
+g	IFkI	!	~58~1	"J
+h	IFkI	!	~59~1	"K
+i	IFkI	!	~60~1	"L
+j	IFkI	!	~61~1	"M
+k	IFkI	!	~62~1	"N
+l	IFkI	!	~63~1	"O
+m	IFkI	!	~64~1	"P
+n	Kx.7	!	2	M	n	~65~1	"Q
+o	IFkI	!	~66~1	"R
+p	IFkI	!	~67~1	"S
+q	IFkI	!	~68~1	"T
+r	IFkI	!	~69~1	"U
+s	IFkI	!	~70~1	"V
+t	Kx.7	!	2	P	t	~71~1	"W
+u	IFkI	!	~72~1	"X
+v	IFkI	!	~73~1	"Y
+w	IFkI	!	~74~1	"Z
+x	IFkI	!	~75~1	"[
+y	IFkI	!	~76~1	"\
+z	Kx.7	!	2	R	z	~77~1	"]
+{	IFkI	!	~78~1	"^
+|	IFkI	!	~79~1	"_

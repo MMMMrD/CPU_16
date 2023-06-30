@@ -1,0 +1,101 @@
+NDB006
+The number of symbol table entries is: 1
+The length of the symbol table is: 13
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+
+The number of name info structs is : 89
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IGdW	!	:103	"w
+#	IGdW	!	:104	"x
+$	IGdW	!	:105	"y
+%	IGdW	!	:106	"z
+&	IGdW	!	:107	"{
+'	IGdW	!	:108	"|
+(	IGdW	!	:109	"}
+)	IGdW	!	:110	"~
+*	IGdW	!	:111	#!
++	IGdW	!	:112	#"
+,	IGdW	!	:113	##
+-	IGdW	!	:114	#$
+.	IGdW	!	:115	#%
+/	IGdW	!	:116	#&
+0	IGdW	!	:117	#'
+1	IGdW	!	:118	#(
+2	IGdW	!	:119	#)
+3	IGdW	!	:120	#*
+4	IGdW	!	:121	#+
+5	IGdW	!	:122	#,
+6	IGdW	!	:123	#-
+7	IGdW	!	:124	#.
+8	IGdW	!	:125	#/
+9	IGdW	!	:126	#0
+:	IGdW	!	:127	#1
+;	IGdW	!	:128	#2
+<	IGdW	!	:129	#3
+=	IGdW	!	:130	#4
+>	IGdW	!	:131	#5
+?	IGdW	!	:132	#6
+@	IGdW	!	:133	#7
+A	IGdW	!	:134	#8
+B	IGdW	!	:135	#9
+C	IGdW	!	:136	#:
+D	IGdW	!	:137	#;
+E	IGdW	!	:138	#<
+F	IGdW	!	:139	#=
+G	IGdW	!	:140	#>
+H	IGdW	!	:141	#?
+I	IGdW	!	:142	#@
+J	IGdW	!	:143	#A
+K	IGdW	!	:144	#B
+L	IGdW	!	:145	#C
+M	IGdW	!	:146	#D
+N	IGdW	!	:147	#E
+O	IGdW	!	:148	#F
+P	IGdW	!	:149	#G
+Q	IGdW	!	:150	#H
+R	IGdW	!	:151	#I
+S	IGdW	!	:152	#J
+T	IGdW	!	:153	#K
+U	IGdW	!	:154	#L
+V	IGdW	!	:155	#M
+W	IGdW	!	:156	#N
+X	IGdW	!	:157	#O
+Y	IGdW	!	:158	#P
+Z	IGdW	!	:159	#Q
+[	IGdW	!	:160	#R
+\	IGdW	!	:161	#S
+]	IGdW	!	:162	#T
+^	IGdW	!	:163	#U
+_	IGdW	!	:164	#V
+`	IGdW	!	:165	#W
+a	IGdW	!	:166	#X
+b	IGdW	!	:167	#Y
+c	IGdW	!	:168	#Z
+d	IGdW	!	:169	#[
+e	IGdW	!	:170	#\
+f	IGdW	!	:171	#]
+g	IGdW	!	:172	#^
+h	IGdW	!	:173	#_
+i	IGdW	!	:174	#`
+j	IGdW	!	:175	#a
+k	IGdW	!	:176	#b
+l	IGdW	!	:177	#c
+m	IeEA	!	15	5	:48	"@
+n	IeEA	!	15	5	:50	"B
+o	IeEA	!	15	5	:51	"C
+p	IeEA	!	15	5	:53	"E
+q	IeEA	!	15	5	:55	"G
+r	IeEA	!	15	5	:58	"J
+s	IeEA	!	15	5	:59	"K
+t	IeEA	!	15	5	:62	"N
+u	IeE[	!	9	5	V0	q
+v	IeE[	!	9	5	V1	r
+w	IeE[	!	9	5	V2	s
+x	IeE[	!	9	5	V3	t
+y	L8ef	!	8	5	4	u	v	w	x	X0	p
+z	L8ef	!	8	5	4	u	v	w	x	X1	o

@@ -1,0 +1,471 @@
+Project Information                       d:\maxplus\projects\exp5\rom\rom.rpt
+
+MAX+plus II Compiler Report File
+Version 10.2 07/10/2002
+Compiled: 06/28/2023 16:47:56
+
+Copyright (C) 1988-2002 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+ROM
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input   Output   Bidir         Shareable
+POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
+
+rom       EPM7032LC44-6    9        16       0      16      2           50 %
+
+User Pins:                 9        16       0  
+
+
+
+Project Information                       d:\maxplus\projects\exp5\rom\rom.rpt
+
+** PROJECT COMPILATION MESSAGES **
+
+Warning: Primitive 'DOUT7' is stuck at GND
+Warning: Primitive 'DOUT6' is stuck at GND
+Warning: Primitive 'DOUT5' is stuck at GND
+Warning: Primitive 'DOUT4' is stuck at GND
+Warning: Primitive 'DOUT3' is stuck at GND
+Warning: Primitive 'DOUT2' is stuck at GND
+Warning: Primitive 'DOUT1' is stuck at GND
+Warning: Primitive 'DOUT0' is stuck at GND
+
+
+Device-Specific Information:              d:\maxplus\projects\exp5\rom\rom.rpt
+rom
+
+***** Logic for device 'rom' compiled without errors.
+
+
+
+
+Device: EPM7032LC44-6
+
+Device Options:
+    Turbo Bit                                    = ON
+    Security Bit                                 = OFF
+
+                                               
+                                               
+                                               
+              A     A                    D  D  
+              D     D                    O  O  
+              D     D  V  G  G  G  G  G  U  U  
+              R  C  R  C  N  N  N  N  N  T  T  
+              7  S  0  C  D  D  D  D  D  5  6  
+            -----------------------------------_ 
+          /   6  5  4  3  2  1 44 43 42 41 40   | 
+   ADDR6 |  7                                39 | DOUT12 
+   ADDR5 |  8                                38 | DOUT7 
+   ADDR4 |  9                                37 | DOUT8 
+     GND | 10                                36 | DOUT11 
+   ADDR3 | 11                                35 | VCC 
+   ADDR2 | 12         EPM7032LC44-6          34 | DOUT9 
+   ADDR1 | 13                                33 | DOUT13 
+RESERVED | 14                                32 | DOUT4 
+     VCC | 15                                31 | DOUT10 
+RESERVED | 16                                30 | GND 
+RESERVED | 17                                29 | DOUT3 
+         |_  18 19 20 21 22 23 24 25 26 27 28  _| 
+           ------------------------------------ 
+              R  R  R  R  G  V  D  D  D  D  D  
+              E  E  E  E  N  C  O  O  O  O  O  
+              S  S  S  S  D  C  U  U  U  U  U  
+              E  E  E  E        T  T  T  T  T  
+              R  R  R  R        1  1  0  2  1  
+              V  V  V  V           5        4  
+              E  E  E  E                       
+              D  D  D  D                       
+
+
+N.C. = No Connect. This pin has no internal connection to the device.
+VCC = Dedicated power pin, which MUST be connected to VCC.
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+
+
+Device-Specific Information:              d:\maxplus\projects\exp5\rom\rom.rpt
+rom
+
+** RESOURCE USAGE **
+
+                                                Shareable     External
+Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
+
+A:     LC1 - LC16     0/16(  0%)   9/16( 56%)   0/16(  0%)   0/36(  0%) 
+B:    LC17 - LC32    16/16(100%)  16/16(100%)   5/16( 31%)   9/36( 25%) 
+
+
+Total dedicated input pins used:                 0/4      (  0%)
+Total I/O pins used:                            25/32     ( 78%)
+Total logic cells used:                         16/32     ( 50%)
+Total shareable expanders used:                  2/32     (  6%)
+Total Turbo logic cells used:                   16/32     ( 50%)
+Total shareable expanders not available (n/a):   3/32     (  9%)
+Average fan-in:                                  4.31
+Total fan-in:                                    69
+
+Total input pins required:                       9
+Total output pins required:                     16
+Total bidirectional pins required:               0
+Total logic cells required:                     16
+Total flipflops required:                        0
+Total product terms required:                   41
+Total logic cells lending parallel expanders:    0
+Total shareable expanders in database:           2
+
+Synthesized logic cells:                         0/  32   (  0%)
+
+
+
+Device-Specific Information:              d:\maxplus\projects\exp5\rom\rom.rpt
+rom
+
+** INPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+   4    (1)  (A)      INPUT               0      0   0    0    0    8    0  ADDR0
+  13    (9)  (A)      INPUT               0      0   0    0    0    8    0  ADDR1
+  12    (8)  (A)      INPUT               0      0   0    0    0    8    0  ADDR2
+  11    (7)  (A)      INPUT               0      0   0    0    0    8    0  ADDR3
+   9    (6)  (A)      INPUT               0      0   0    0    0    8    0  ADDR4
+   8    (5)  (A)      INPUT               0      0   0    0    0    5    0  ADDR5
+   7    (4)  (A)      INPUT               0      0   0    0    0    8    0  ADDR6
+   6    (3)  (A)      INPUT               0      0   0    0    0    8    0  ADDR7
+   5    (2)  (A)      INPUT               0      0   0    0    0    8    0  CS
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:              d:\maxplus\projects\exp5\rom\rom.rpt
+rom
+
+** OUTPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+  26     30    B     OUTPUT      t        0      0   0    0    0    0    0  DOUT0
+  24     32    B     OUTPUT      t        0      0   0    0    0    0    0  DOUT1
+  27     29    B     OUTPUT      t        0      0   0    0    0    0    0  DOUT2
+  29     27    B     OUTPUT      t        0      0   0    0    0    0    0  DOUT3
+  32     25    B     OUTPUT      t        0      0   0    0    0    0    0  DOUT4
+  41     17    B     OUTPUT      t        0      0   0    0    0    0    0  DOUT5
+  40     18    B     OUTPUT      t        0      0   0    0    0    0    0  DOUT6
+  38     20    B     OUTPUT      t        0      0   0    0    0    0    0  DOUT7
+  37     21    B     OUTPUT      t        3      0   1    9    0    0    0  DOUT8
+  34     23    B     OUTPUT      t        0      0   0    8    0    0    0  DOUT9
+  31     26    B     OUTPUT      t        0      0   0    9    0    0    0  DOUT10
+  36     22    B     OUTPUT      t        0      0   0    9    0    0    0  DOUT11
+  39     19    B     OUTPUT      t        1      0   1    9    0    0    0  DOUT12
+  33     24    B     OUTPUT      t        0      0   0    8    0    0    0  DOUT13
+  28     28    B     OUTPUT      t        0      0   0    8    0    0    0  DOUT14
+  25     31    B     OUTPUT      t        1      0   1    9    0    0    0  DOUT15
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:              d:\maxplus\projects\exp5\rom\rom.rpt
+rom
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'B':
+
+                                         Logic cells placed in LAB 'B'
+        +------------------------------- LC30 DOUT0
+        | +----------------------------- LC32 DOUT1
+        | | +--------------------------- LC29 DOUT2
+        | | | +------------------------- LC27 DOUT3
+        | | | | +----------------------- LC25 DOUT4
+        | | | | | +--------------------- LC17 DOUT5
+        | | | | | | +------------------- LC18 DOUT6
+        | | | | | | | +----------------- LC20 DOUT7
+        | | | | | | | | +--------------- LC21 DOUT8
+        | | | | | | | | | +------------- LC23 DOUT9
+        | | | | | | | | | | +----------- LC26 DOUT10
+        | | | | | | | | | | | +--------- LC22 DOUT11
+        | | | | | | | | | | | | +------- LC19 DOUT12
+        | | | | | | | | | | | | | +----- LC24 DOUT13
+        | | | | | | | | | | | | | | +--- LC28 DOUT14
+        | | | | | | | | | | | | | | | +- LC31 DOUT15
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'B'
+LC      | | | | | | | | | | | | | | | | | A B |     Logic cells that feed LAB 'B':
+
+Pin
+4    -> - - - - - - - - * * * * * * * * | - * | <-- ADDR0
+13   -> - - - - - - - - * * * * * * * * | - * | <-- ADDR1
+12   -> - - - - - - - - * * * * * * * * | - * | <-- ADDR2
+11   -> - - - - - - - - * * * * * * * * | - * | <-- ADDR3
+9    -> - - - - - - - - * * * * * * * * | - * | <-- ADDR4
+8    -> - - - - - - - - * - * * * - - * | - * | <-- ADDR5
+7    -> - - - - - - - - * * * * * * * * | - * | <-- ADDR6
+6    -> - - - - - - - - * * * * * * * * | - * | <-- ADDR7
+5    -> - - - - - - - - * * * * * * * * | - * | <-- CS
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:              d:\maxplus\projects\exp5\rom\rom.rpt
+rom
+
+** EQUATIONS **
+
+ADDR0    : INPUT;
+ADDR1    : INPUT;
+ADDR2    : INPUT;
+ADDR3    : INPUT;
+ADDR4    : INPUT;
+ADDR5    : INPUT;
+ADDR6    : INPUT;
+ADDR7    : INPUT;
+CS       : INPUT;
+
+-- Node name is 'DOUT0' 
+-- Equation name is 'DOUT0', location is LC030, type is output.
+ DOUT0   = LCELL( VCC $  VCC);
+
+-- Node name is 'DOUT1' 
+-- Equation name is 'DOUT1', location is LC032, type is output.
+ DOUT1   = LCELL( VCC $  VCC);
+
+-- Node name is 'DOUT2' 
+-- Equation name is 'DOUT2', location is LC029, type is output.
+ DOUT2   = LCELL( VCC $  VCC);
+
+-- Node name is 'DOUT3' 
+-- Equation name is 'DOUT3', location is LC027, type is output.
+ DOUT3   = LCELL( VCC $  VCC);
+
+-- Node name is 'DOUT4' 
+-- Equation name is 'DOUT4', location is LC025, type is output.
+ DOUT4   = LCELL( VCC $  VCC);
+
+-- Node name is 'DOUT5' 
+-- Equation name is 'DOUT5', location is LC017, type is output.
+ DOUT5   = LCELL( VCC $  VCC);
+
+-- Node name is 'DOUT6' 
+-- Equation name is 'DOUT6', location is LC018, type is output.
+ DOUT6   = LCELL( VCC $  VCC);
+
+-- Node name is 'DOUT7' 
+-- Equation name is 'DOUT7', location is LC020, type is output.
+ DOUT7   = LCELL( VCC $  VCC);
+
+-- Node name is 'DOUT8' 
+-- Equation name is 'DOUT8', location is LC021, type is output.
+ DOUT8   = LCELL( _EQ001 $  _EQ002);
+  _EQ001 =  ADDR0 & !ADDR1 &  ADDR2 &  ADDR3 & !ADDR4 & !ADDR6 & !ADDR7 & !CS & 
+              _X001 &  _X002
+         # !ADDR0 & !ADDR1 & !ADDR2 &  ADDR3 & !ADDR4 & !ADDR6 & !ADDR7 & !CS & 
+              _X001 &  _X002
+         # !ADDR0 &  ADDR1 &  ADDR2 & !ADDR4 & !ADDR6 & !ADDR7 & !CS &  _X001 & 
+              _X002
+         #  ADDR0 &  ADDR1 & !ADDR2 & !ADDR4 & !ADDR6 & !ADDR7 & !CS &  _X001 & 
+              _X002;
+  _X001  = EXP(!ADDR2 & !ADDR3 & !ADDR4 & !ADDR5);
+  _X002  = EXP(!ADDR0 &  ADDR2 & !ADDR3 & !ADDR4);
+  _EQ002 = !ADDR6 & !ADDR7 & !CS &  _X001 &  _X002;
+  _X001  = EXP(!ADDR2 & !ADDR3 & !ADDR4 & !ADDR5);
+  _X002  = EXP(!ADDR0 &  ADDR2 & !ADDR3 & !ADDR4);
+
+-- Node name is 'DOUT9' 
+-- Equation name is 'DOUT9', location is LC023, type is output.
+ DOUT9   = LCELL( _EQ003 $  GND);
+  _EQ003 =  ADDR0 &  ADDR1 & !ADDR2 & !ADDR3 & !ADDR4 & !ADDR6 & !ADDR7 & !CS
+         # !ADDR0 & !ADDR1 & !ADDR2 &  ADDR3 & !ADDR4 & !ADDR6 & !ADDR7 & !CS;
+
+-- Node name is 'DOUT10' 
+-- Equation name is 'DOUT10', location is LC026, type is output.
+ DOUT10  = LCELL( _EQ004 $  GND);
+  _EQ004 = !ADDR0 & !ADDR1 & !ADDR2 &  ADDR5 & !ADDR6 & !ADDR7 & !CS
+         #  ADDR0 &  ADDR1 &  ADDR2 & !ADDR6 & !ADDR7 & !CS
+         # !ADDR0 & !ADDR1 &  ADDR3 & !ADDR6 & !ADDR7 & !CS
+         #  ADDR4 & !ADDR6 & !ADDR7 & !CS;
+
+-- Node name is 'DOUT11' 
+-- Equation name is 'DOUT11', location is LC022, type is output.
+ DOUT11  = LCELL( _EQ005 $  GND);
+  _EQ005 = !ADDR0 & !ADDR1 & !ADDR2 & !ADDR3 &  ADDR5 & !ADDR6 & !ADDR7 & !CS
+         #  ADDR0 &  ADDR2 &  ADDR3 & !ADDR6 & !ADDR7 & !CS
+         #  ADDR0 &  ADDR1 &  ADDR2 & !ADDR6 & !ADDR7 & !CS
+         #  ADDR4 & !ADDR6 & !ADDR7 & !CS;
+
+-- Node name is 'DOUT12' 
+-- Equation name is 'DOUT12', location is LC019, type is output.
+ DOUT12  = LCELL( _EQ006 $  GND);
+  _EQ006 = !ADDR0 &  ADDR1 &  ADDR2 & !ADDR3 & !ADDR4 & !ADDR6 & !ADDR7 & !CS
+         #  ADDR0 &  ADDR1 & !ADDR2 & !ADDR3 & !ADDR4 & !ADDR6 & !ADDR7 & !CS
+         #  ADDR0 & !ADDR2 & !ADDR3 & !ADDR4 &  ADDR5 & !ADDR6 & !ADDR7 & !CS
+         # !ADDR0 &  ADDR1 & !ADDR2 &  ADDR3 & !ADDR4 & !ADDR6 & !ADDR7 & !CS
+         #  ADDR0 & !ADDR1 &  ADDR3 & !ADDR4 & !ADDR6 & !ADDR7 & !CS;
+
+-- Node name is 'DOUT13' 
+-- Equation name is 'DOUT13', location is LC024, type is output.
+ DOUT13  = LCELL( _EQ007 $  GND);
+  _EQ007 =  ADDR0 &  ADDR1 & !ADDR2 &  ADDR3 & !ADDR4 & !ADDR6 & !ADDR7 & !CS
+         # !ADDR0 &  ADDR1 &  ADDR2 & !ADDR4 & !ADDR6 & !ADDR7 & !CS
+         #  ADDR0 & !ADDR1 &  ADDR2 & !ADDR4 & !ADDR6 & !ADDR7 & !CS;
+
+-- Node name is 'DOUT14' 
+-- Equation name is 'DOUT14', location is LC028, type is output.
+ DOUT14  = LCELL( _EQ008 $  GND);
+  _EQ008 = !ADDR0 &  ADDR1 &  ADDR3 & !ADDR4 & !ADDR6 & !ADDR7 & !CS
+         #  ADDR0 & !ADDR1 &  ADDR3 & !ADDR4 & !ADDR6 & !ADDR7 & !CS
+         # !ADDR2 &  ADDR3 & !ADDR4 & !ADDR6 & !ADDR7 & !CS;
+
+-- Node name is 'DOUT15' 
+-- Equation name is 'DOUT15', location is LC031, type is output.
+ DOUT15  = LCELL( _EQ009 $  GND);
+  _EQ009 =  ADDR0 & !ADDR1 &  ADDR2 & !ADDR4 & !ADDR6 & !ADDR7 & !CS
+         #  ADDR0 & !ADDR1 & !ADDR4 &  ADDR5 & !ADDR6 & !ADDR7 & !CS
+         # !ADDR0 &  ADDR1 &  ADDR2 & !ADDR4 & !ADDR6 & !ADDR7 & !CS
+         #  ADDR0 &  ADDR1 & !ADDR2 & !ADDR4 & !ADDR6 & !ADDR7 & !CS
+         # !ADDR2 &  ADDR3 & !ADDR4 & !ADDR6 & !ADDR7 & !CS;
+
+
+
+--     Shareable expanders that are duplicated in multiple LABs:
+--     (none)
+
+
+
+
+Project Information                       d:\maxplus\projects\exp5\rom\rom.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Standard
+
+   Default Synthesis Style                = NORMAL
+
+      Logic option settings in 'NORMAL' style for 'MAX7000' family
+
+      DECOMPOSE_GATES                     = on
+      DUPLICATE_LOGIC_EXTRACTION          = on
+      MINIMIZATION                        = full
+      MULTI_LEVEL_FACTORING               = on
+      NOT_GATE_PUSH_BACK                  = on
+      PARALLEL_EXPANDERS                  = off
+      REDUCE_LOGIC                        = on
+      REFACTORIZATION                     = on
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = on
+      SLOW_SLEW_RATE                      = off
+      SOFT_BUFFER_INSERTION               = on
+      SUBFACTOR_EXTRACTION                = on
+      TURBO_BIT                           = on
+      XOR_SYNTHESIS                       = on
+      IGNORE_SOFT_BUFFERS                 = off
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      One-Hot State Machine Encoding      = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = off
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:00
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:00
+   Partitioner                            00:00:00
+   Fitter                                 00:00:00
+   Timing SNF Extractor                   00:00:00
+   Assembler                              00:00:00
+   --------------------------             --------
+   Total Time                             00:00:00
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 7,242K

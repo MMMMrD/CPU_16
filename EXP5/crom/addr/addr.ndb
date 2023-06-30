@@ -1,0 +1,49 @@
+NDB006
+The number of symbol table entries is: 1
+The length of the symbol table is: 13
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+
+The number of name info structs is : 37
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IeEA	!	11	9	:59	"K
+#	IeEA	!	11	9	:61	"M
+$	IeEA	!	11	9	:62	"N
+%	IeEA	!	11	9	:63	"O
+&	IeEA	!	11	9	:65	"Q
+'	IeEA	!	11	9	:66	"R
+(	IeEA	!	11	9	:68	"T
+)	IeEA	!	11	9	:70	"V
+*	IeEA	!	11	9	:71	"W
++	IeEA	!	11	9	:75	"[
+,	IeEA	!	11	9	:77	"]
+-	IeEA	!	11	9	:78	"^
+.	IeEA	!	11	9	:82	"b
+/	IeEA	!	11	9	:84	"d
+0	IeEA	!	11	9	:85	"e
+1	IeEA	!	11	9	:89	"i
+2	IeEA	!	11	9	:91	"k
+3	IeEA	!	11	9	:92	"l
+4	IeEA	!	11	9	:96	"p
+5	IeEA	!	11	9	:98	"r
+6	IeEA	!	11	9	:99	"s
+7	L8ef	!	5	9	1	B	CF	s
+8	L8ef	!	5	9	1	>	I4	r
+9	L8ef	!	5	9	1	?	I5	q
+:	L8ef	!	5	9	1	@	I6	p
+;	L8ef	!	5	9	1	A	I7	o
+<	L8ef	!	5	9	4	>	?	@	A	P1	w
+=	L8ef	!	5	9	1	B	P2	x
+>	IeE[	!	6	9	SE0	~
+?	IeE[	!	6	9	SE1	}
+@	IeE[	!	6	9	SE2	|
+A	IeE[	!	6	9	SE3	{
+B	IeE[	!	6	9	SE4	z
+C	IeE[	!	6	9	SE5	y
+D	L8ef	!	5	9	1	B	SF	t
+E	L8ef	!	5	9	5	>	?	@	A	B	T4	v
+F	L8ef	!	5	9	1	B	ZF	u
