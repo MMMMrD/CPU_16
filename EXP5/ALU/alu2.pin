@@ -21,79 +21,54 @@
 
 
 N.C. = No Connect. This pin has no internal connection to the device.
-VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
-VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCC = Dedicated power pin, which MUST be connected to VCC.
 GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
 RESERVED = Unused I/O pin, which MUST be left unconnected.
 
 ----------------------------------------------------------------------------
 
-CHIP "alu2" ASSIGNED TO AN EPM7064LC68-7
+CHIP "alu2" ASSIGNED TO AN EPM7032LC44-6
 GND                              : 1
 GND                              : 2
-VCCINT                           : 3
-X3                               : 4
-~2214~1                          : 5
-GND                              : 6
-~2243~1                          : 7
-X4                               : 8
-~2361~1                          : 9
-~2385~1                          : 10
-VCCIO                            : 11
-~2409~1                          : 12
-~2769~1                          : 13
-~2529~1                          : 14
-S2                               : 15
-GND                              : 16
-RESERVED                         : 17
-~2338~1                          : 18
-~2262~1                          : 19
-~2481~1                          : 20
-VCCIO                            : 21
-~2505~1                          : 22
-~PIN007                          : 23
-~2339~1                          : 24
-~2601~1                          : 25
-GND                              : 26
-~2625~1                          : 27
-ALOUT3                           : 28
-~PIN012                          : 29
-X7                               : 30
-VCCIO                            : 31
-Y3                               : 32
-S1                               : 33
-GND                              : 34
-VCCINT                           : 35
-S0                               : 36
-X5                               : 37
-GND                              : 38
-~PIN011                          : 39
-X6                               : 40
-~PIN004                          : 41
-~PIN017                          : 42
-VCCIO                            : 43
-~PIN010                          : 44
-~PIN009                          : 45
-~PIN002                          : 46
-~2577~1                          : 47
-GND                              : 48
-RESERVED                         : 49
-~PIN003                          : 50
-RESERVED                         : 51
-~PIN008                          : 52
-VCCIO                            : 53
-~2310~1                          : 54
-RESERVED                         : 55
-RESERVED                         : 56
-~PIN005                          : 57
-GND                              : 58
-~PIN001                          : 59
-RESERVED                         : 60
-~2286~1                          : 61
-~2457~1                          : 62
-VCCIO                            : 63
-RESERVED                         : 64
-~PIN006                          : 65
-GND                              : 66
-GND                              : 67
-GND                              : 68
+VCC                              : 3
+S2                               : 4
+S1                               : 5
+S0                               : 6
+X4                               : 7
+X5                               : 8
+CF                               : 9
+GND                              : 10
+ZF                               : 11
+~2828~1                          : 12
+~PIN003                          : 13
+~2852~1                          : 14
+VCC                              : 15
+~2876~1                          : 16
+~2996~1                          : 17
+~2972~1                          : 18
+~2948~1                          : 19
+~2924~1                          : 20
+~2900~1                          : 21
+GND                              : 22
+VCC                              : 23
+RESERVED                         : 24
+X6                               : 25
+~PIN013                          : 26
+~2441~1                          : 27
+X7                               : 28
+~PIN011                          : 29
+GND                              : 30
+~PIN010                          : 31
+~2370~1                          : 32
+~2465~1                          : 33
+~2395~1                          : 34
+VCC                              : 35
+~2417~1                          : 36
+~PIN012                          : 37
+~2756~1~4                        : 38
+~2365~1                          : 39
+~PIN002                          : 40
+~PIN014                          : 41
+GND                              : 42
+GND                              : 43
+GND                              : 44
