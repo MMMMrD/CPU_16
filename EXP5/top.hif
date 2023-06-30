@@ -29,7 +29,25 @@ TREE
 {
 	top::(0,0):(0): top.gdf
 	{
-		pc::(0,0):(1): pc.gdf;
-		counter::(0,0):(2): counter.gdf;
+		counter::(0,0):(1): counter.gdf;
+		pc::(0,0):(3): pc.gdf;
+		rom::(0,0):(4): rom.gdf;
+		ir::(0,0):(5): ir.gdf;
+		convert::(0,0):(6): convert.gdf;
+		mux3_1::(0,0):(7): mux3_1.gdf;
+		fen2::(0,0):(8): fen2.gdf;
+		ram::(0,0):(9): ram.gdf;
+		mux3_2::(0,0):(10): mux3_2.gdf;
+		crom::(0,0):(15): crom.gdf;
+		decoder::(0,0):(16): decoder.gdf;
+		ls273::(0,0):(22): ls273.gdf;
+		ls273::(0,0):(23): ls273.gdf;
+		ls273::(0,0):(24): ls273.gdf;
+		ls273::(0,0):(25): ls273.gdf;
+		mux4_1::(0,0):(26): mux4_1.gdf;
+		mux4_2::(0,0):(27): mux4_2.gdf;
+		ls273::(0,0):(29): ls273.gdf;
+		psw::(0,0):(31): psw.gdf;
+		alu::(0,0):(32): alu.gdf;
 	}
 }
